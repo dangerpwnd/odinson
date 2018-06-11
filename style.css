@@ -1,47 +1,53 @@
 * {
   margin: 0;
+  font-family: Helvetica, serif;
 }
 
-navbarleft {
-
+nav {
+  float:top;
+  display: inline-block;
 }
 
-navbarright {
-
-}
-
-googleapps {
-
-}
-
-alerts {
+.navbarleft {
 
 }
 
-login {
+.navbarright {
 
 }
 
-googlelogo {
+.googleapps {
 
 }
 
-searchbar {
+.alerts {
 
 }
 
-googlesearch {
+.login {
 
 }
 
-lucky {
+.googlelogo {
 
 }
 
-footerleft {
+.searchbar {
 
 }
 
-footerright {
+.googlesearch {
+
+}
+
+.lucky {
+
+}
+
+.footerleft {
+
+}
+
+.footerright {
 
 }
