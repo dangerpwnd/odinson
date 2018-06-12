@@ -3,17 +3,17 @@
   font-family: Helvetica, serif;
 }
 
-nav {
-  float:top;
+nav li {
   display: inline-block;
+  list-style-type: none;
 }
 
 .navbarleft {
-
+  float: left;
 }
 
 .navbarright {
-
+  float: right;
 }
 
 .googleapps {
@@ -44,10 +44,14 @@ nav {
 
 }
 
-.footerleft {
+footer {
 
 }
 
-.footerright {
+.footerleft {
+  float: left;
+}
 
+.footerright {
+  float: right;
 }
