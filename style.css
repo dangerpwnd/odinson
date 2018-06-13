@@ -15,11 +15,25 @@ nav li {
 }
 
 .navbarleft {
-  text-align: left;
+  float: left;
 }
 
 .navbarright {
-  text-align: right;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.googlelg img {
+  padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 100px;
+  width: 300px;
+
 }
 
 .googleapps {
@@ -32,14 +46,6 @@ nav li {
 
 .login {
 
-}
-
-.googlelogo img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 50px;
-  width:50%
 }
 
 .searchbar {
