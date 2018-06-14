@@ -14,12 +14,27 @@ nav li {
   padding: 10px 10px;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .navbarleft {
   float: left;
+  font-size: 14px;
+}
+
+.navbarleft a:hover {
+  text-decoration: underline;
 }
 
 .navbarright {
   float: right;
+  font-size: 14px;
+}
+
+.navbarright a:hover {
+  text-decoration: underline;
 }
 
 .clear {
@@ -51,14 +66,30 @@ nav li {
 .searchbar {
   display: block;
   margin: 0 auto;
+  width: 400px;
 }
 
-.googlesearch {
-
+.searchbar input {
+  width:400px;
 }
 
-.lucky {
+.googlelucky {
+  display: block;
+  margin: 0 auto;
+  width: 215px;
+  padding: 10px 0;
+}
 
+.googlelucky button{
+  display:inline-block;
+}
+
+.googleleft {
+  float: left;
+}
+
+.googleright {
+  float: right;
 }
 
 footer {
