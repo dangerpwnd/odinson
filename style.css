@@ -4,8 +4,8 @@
   font-family: Helvetica, serif;
 }
 
-header {
-
+nav {
+  padding: 5px 10px;
 }
 
 nav li {
@@ -51,16 +51,25 @@ a {
 
 }
 
-.googleapps {
-
+.googleapps img {
+  opacity: 0.5;
+  width: 15px;
+  height: 15px;
 }
 
-.alerts {
-
+.googleapps img:hover {
+  opacity: 1;
 }
 
-.login {
+/*.alerts {
+Not needed right now
+}*/
 
+.login button {
+  padding: 5px;
+  background-color: #4286f4;
+  color: white;
+  border-radius: 3px;
 }
 
 .searchbar {
@@ -76,30 +85,51 @@ a {
 .googlelucky {
   display: block;
   margin: 0 auto;
-  width: 215px;
-  padding: 10px 0;
+  width: 225px;
+  padding: 10px 5px;
 }
 
 .googlelucky button{
   display:inline-block;
+  padding: 5px;
+  border-radius: 1px;
+  background-color: darkgray;
+  color: gray;
+  margin-bottom: 165px;
 }
 
-.googleleft {
-  float: left;
+.googlelucky button:hover {
+  background-color: white;
+  color: black;
+  border-radius: 1px;
+  border: 1px solid black;
 }
 
-.googleright {
+/*.googleleft {
+  /float: left;
+} */
+
+/*.googleright {
   float: right;
-}
+} */
 
 footer {
-
+  height: 50px;
+  background-color: lightgray;
 }
 
 .footerleft {
   float: left;
 }
 
+.footerleft a:hover {
+  text-decoration: underline;
+}
+
 .footerright {
   float: right;
+}
+
+.footerright a:hover {
+  text-decoration: underline;
 }
