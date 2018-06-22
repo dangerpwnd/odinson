@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, serif;
+}
+
+nav {
+  padding: 5px 10px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbarleft {
+  float: left;
+  font-size: 14px;
+}
+
+.navbarleft a:hover {
+  text-decoration: underline;
+}
+
+.navbarright {
+  float: right;
+  font-size: 14px;
+}
+
+.navbarright a:hover {
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+}
+
+.googlelg img {
+  padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 100px;
+  width: 300px;
+
+}
+
+.googleapps img {
+  opacity: 0.5;
+  width: 15px;
+  height: 15px;
+}
+
+.googleapps img:hover {
+  opacity: 1;
+}
+
+/*.alerts {
+Not needed right now
+}*/
+
+.login button {
+  padding: 5px;
+  background-color: #4286f4;
+  color: white;
+  border-radius: 3px;
+}
+
+.searchbar {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.searchbar input {
+  width:400px;
+}
+
+.googlelucky {
+  display: block;
+  margin: 0 auto;
+  width: 225px;
+  padding: 10px 5px;
+}
+
+.googlelucky button{
+  display:inline-block;
+  padding: 5px;
+  border-radius: 1px;
+  background-color: darkgray;
+  color: gray;
+  margin-bottom: 165px;
+}
+
+.googlelucky button:hover {
+  background-color: white;
+  color: black;
+  border-radius: 1px;
+  border: 1px solid black;
+}
+
+/*.googleleft {
+  /float: left;
+} */
+
+/*.googleright {
+  float: right;
+} */
+
+footer {
+  height: 50px;
+  background-color: lightgray;
+}
+
+.footerleft {
+  float: left;
+}
+
+.footerleft a:hover {
+  text-decoration: underline;
+}
+
+.footerright {
+  float: right;
+}
+
+.footerright a:hover {
+  text-decoration: underline;
+}
