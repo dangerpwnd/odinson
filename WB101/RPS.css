@@ -1,0 +1,108 @@
+html {
+  background:url("assets/colosseum.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Eagle Lake', cursive;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Eagle Lake', cursive;
+}
+
+.rps{
+  padding-top: 250px;
+  text-align: center;
+}
+
+
+.rock {
+ display: inline-block;
+ width: 200px;
+ height: 200px;
+ /*border: 1px solid red;
+ border-radius: 5px; */
+ margin-right: 75px;
+ -webkit-filter:blur(3px);
+ filter:blur(3px);
+ -webkit-transition: .3s ease-in-out;
+ transition: .3s ease-in-out;
+}
+
+.rock:hover {
+  -webkit-filter:blur(0);
+  filter:blur(0);
+}
+
+/*.rock span {
+  opacity: 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+
+.rock span:hover {
+  opacity:1;
+}*/
+
+.paper {
+ display: inline-block;
+ width: 200px;
+ height: 200px;
+ /*border-radius: 5px;
+ border: 1px solid red;*/
+ margin-left: 75px;
+ margin-right: 75px;
+ -webkit-filter:blur(3px);
+ filter:blur(3px);
+ -webkit-transition: .3s ease-in-out;
+ transition: .3s ease-in-out;
+}
+
+.paper:hover {
+  -webkit-filter:blur(0);
+  filter:blur(0);
+}
+
+/*.paper span {
+  opacity: 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+
+.paper span:hover {
+  opacity:1;
+}*/
+
+.scissors {
+ display:inline-block;
+ width: 200px;
+ height: 200px;
+ /*border: 1px solid red;
+ border-radius: 5px;*/
+ margin-left: 75px;
+ -webkit-filter:blur(3px);
+ filter:blur(3px);
+ -webkit-transition: .3s ease-in-out;
+ transition: .3s ease-in-out;
+}
+
+.scissors:hover {
+  -webkit-filter:blur(0);
+  filter:blur(0);
+}
+
+/*.scissors span {
+  opacity: 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+
+.scissors span:hover {
+  opacity:1;
+}*/
