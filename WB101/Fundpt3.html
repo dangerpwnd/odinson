@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Fundamentals Pt 3</title>
+  </head>
+  <body>
+    <script>
+
+
+      function add7 (){
+        var x = parseInt(prompt("What number do you want to add to 7?"));
+        var sum = (x + 7);
+        console.log(sum);
+      }
+      function multiply(){
+        var x = parseInt(prompt("Enter the first number to multiply"));
+        var y = parseInt(prompt("What's the next number?"));
+        var sum = (x * y);
+        console.log(sum);
+      }
+      function capitalize(){
+        var ask = prompt("Enter a few words");
+        var upperWords = ask.charAt(0).toUpperCase() + ask.substr(1);
+        console.log(upperWords);
+      }
+      function lastLetter(){
+        var ask = prompt("Enter a word");
+        var last = ask.slice(-1);
+        console.log(last);
+      }
+      add7();
+      multiply();
+      capitalize();
+      lastLetter();
+    </script>
+  </body>
+</html>
