@@ -3,21 +3,20 @@ html {
   background-size: cover;
 }
 
-h1 {
-  text-align: center;
-  font-family: 'Eagle Lake', cursive;
-}
-
-h2 {
+h1,h2,button {
   text-align: center;
   font-family: 'Eagle Lake', cursive;
 }
 
 .rps{
-  padding-top: 250px;
+  padding-top: 100px;
   text-align: center;
 }
 
+.reset {
+  text-align: center;
+  padding-top: 100px;
+}
 
 .rock {
  display: inline-block;
@@ -106,3 +105,19 @@ h2 {
 .scissors span:hover {
   opacity:1;
 }*/
+
+.pScore {
+  display:inline-block;
+  text-align: left;
+  margin-right: 25px;
+}
+
+.cScore {
+  display: inline-block;
+  text-align: right;
+  margin-left: 25px;
+}
+
+.Score {
+  text-align: center;
+}
