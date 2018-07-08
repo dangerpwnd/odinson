@@ -4,7 +4,6 @@
     <title>Enter the arena</title>
     <link href="RPS.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
-    <script src="RPS.js"></script>
   </head>
   <body>
     <header>
@@ -12,20 +11,27 @@
       <h2>Steel yourself for the fight of a lifetime</h2>
       <h2>Choose your weapon</h2>
       <section class="Score">
-        <button class="pScore">Your score: 0</button>
-        <button class="cScore">Enemy's score: 0</button>
+        <p class="pScore">Your score: </p>
+        <p class="cScore">Enemy's score: </p>
+      </section>
+      <section class="Score">
+        <p id="pS" class="pScore">0</p>
+        <p id="cS" class="cScore">0</p>
       </section>
     </header>
     <section class="rps">
-      <img class="rock" src="assets/rock.png" alt="The rock of ages"></img>
+      <img class="rock" src="assets/rock.png" alt="The rock of ages" onclick="myRock()"</img>
       <!--<span class="rock">The rock of ages</span>-->
-      <img class="paper" src="assets/paper.png" alt="Paper sharper than a knife"></img>
+      <img class="paper" src="assets/paper.png" alt="Paper sharper than a knife" onclick="myPaper()"></img>
       <!--<span class="paper">Paper sharper than a knife</span>-->
-      <img class="scissors" src="assets/scissors.png" alt="Shears crafted by the gods"></img>
+      <img class="scissors" src="assets/scissors.png" alt="Shears crafted by the gods" onclick="myScissors()"></img>
       <!--<span class="scissors">Shears crafted by the gods</span>-->
     </section>
-    <section class="reset">
+    <!--<section class="reset">
       <button>DO IT AGAIN!</button>
-    </section>
-    <section>
-      <You
+    </section>-->
+  </body>
+  <footer>
+    <script type="text/javascript" src="RPS.js"></script>
+  </footer>
+</html>

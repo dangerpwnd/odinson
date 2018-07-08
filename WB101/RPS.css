@@ -1,11 +1,12 @@
 html {
   background:url("assets/colosseum.jpg") no-repeat center center fixed;
   background-size: cover;
+  font-family: 'Eagle Lake', cursive;
 }
 
-h1,h2,button {
+h1,h2 {
   text-align: center;
-  font-family: 'Eagle Lake', cursive;
+  background-color:rgba(192,192,192,0.5);
 }
 
 .rps{
@@ -13,10 +14,10 @@ h1,h2,button {
   text-align: center;
 }
 
-.reset {
+/*.reset {
   text-align: center;
   padding-top: 100px;
-}
+}*/
 
 .rock {
  display: inline-block;
@@ -110,14 +111,19 @@ h1,h2,button {
   display:inline-block;
   text-align: left;
   margin-right: 25px;
+  font-size: 18px;
+  font-color: blue;
 }
 
 .cScore {
   display: inline-block;
   text-align: right;
   margin-left: 25px;
+  font-size: 18px;
+  font-color: red;
 }
 
 .Score {
   text-align: center;
+  background-color:rgba(192,192,192,0.5);
 }
